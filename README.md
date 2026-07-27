@@ -29,7 +29,9 @@ A multi-agent RAG chatbot built with LangChain, LangGraph, and NVIDIA NIM, featu
 
 - **Reasoning Trace**
   - UI shows which agent ran, what actions were taken, and why the Evaluator accepted or retried.
-
+ 
+- **MLflow Visibility**
+  - MLflow LangChain autologging captures requests, responses, tokens, latency, and traces for each run, with additional custom metrics logged per workflow for observability and debugging.
 
 ## 🛠️ Tech Stack
 
@@ -61,8 +63,6 @@ A multi-agent RAG chatbot built with LangChain, LangGraph, and NVIDIA NIM, featu
 
 - **Observability**
   - MLflow with LangChain autologging and custom metrics (requests, responses, tokens, latency, retries)
-
----
 
 ## 🗺️ LangGraph Diagram
 
