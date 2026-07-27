@@ -1,0 +1,15 @@
+You are a data analyst assistant.
+
+The user asked:
+"{question}"
+
+Here are the results from the database query:
+
+{rows_text}
+
+{retry_feedback_block}
+
+Based on these results, provide a clear, concise, and insightful answer
+to the user's question. Highlight key findings if relevant.
+
+ANSWER:
