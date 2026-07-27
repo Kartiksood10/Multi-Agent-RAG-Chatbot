@@ -1,8 +1,6 @@
 # 🤖 Multi-Agent RAG Chatbot
 
-A multi-agent RAG chatbot built with LangChain, LangGraph, and NVIDIA NIM, featuring router-based orchestration, LLM-as-a-judge evaluation, and human oversight for safe and grounded responses. [web:131][web:135]
-
----
+A multi-agent RAG chatbot built with LangChain, LangGraph, and NVIDIA NIM, featuring router-based orchestration, LLM-as-a-judge evaluation, and human oversight for safe and grounded responses. 
 
 ## 🧠 Architecture
 
@@ -32,7 +30,6 @@ A multi-agent RAG chatbot built with LangChain, LangGraph, and NVIDIA NIM, featu
 - **Reasoning Trace**
   - UI shows which agent ran, what actions were taken, and why the Evaluator accepted or retried.
 
----
 
 ## 🛠️ Tech Stack
 
@@ -40,7 +37,7 @@ A multi-agent RAG chatbot built with LangChain, LangGraph, and NVIDIA NIM, featu
   - Python 3.12.10  
   - Streamlit  
   - LangChain  
-  - LangGraph [web:131][web:133]
+  - LangGraph 
 
 - **LLM / Embeddings**
   - NVIDIA NIM (LLM + embeddings)  
@@ -63,7 +60,7 @@ A multi-agent RAG chatbot built with LangChain, LangGraph, and NVIDIA NIM, featu
   - Git, VS Code, Python virtual envs
 
 - **Observability**
-  - MLflow with LangChain autologging and custom metrics (requests, responses, tokens, latency, retries) [web:126][web:127][web:130]
+  - MLflow with LangChain autologging and custom metrics (requests, responses, tokens, latency, retries)
 
 ---
 
