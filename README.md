@@ -1,6 +1,6 @@
 # 🤖 Multi-Agent RAG Chatbot
 
-A multi-agent RAG chatbot built with LangChain, LangGraph, and NVIDIA NIM, featuring router-based orchestration, LLM-as-a-judge evaluation, and human oversight for safe and grounded responses. 
+A Multi-agent RAG chatbot built with LangChain, LangGraph, and NVIDIA NIM, featuring router-based orchestration, LLM-as-a-judge evaluation, and human oversight for safe and grounded responses. 
 
 ## 🧠 Architecture
 
